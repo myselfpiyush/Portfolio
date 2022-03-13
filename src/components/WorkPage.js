@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
@@ -52,13 +52,6 @@ const container = {
 };
 
 const WorkPage = () => {
-  const [numbers, setNumbers] = useState(0);
-
-  useEffect(() => {
-    let num = (window.innerHeight - 70) / 30;
-    setNumbers(parseInt(num));
-  }, []);
-
   return (
     <MainContainer
       variants={container}

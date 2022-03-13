@@ -1,0 +1,28 @@
+// work data
+
+export const Works = [
+  {
+    id: 1,
+    name: "Trainee at Stanford University : Code In Place",
+    link: "https://codeinplace.stanford.edu/",
+    date: "04/2021 - 05/2021",
+    imgSrc:
+      "https://i.pinimg.com/736x/fd/f3/b4/fdf3b409bc61869a160206cbbdfb27d4.jpg",
+    workDone: [
+      "Worked on multiple problems with many students around the world under a mentor.",
+      "Learned new skills, methods and formed a project.",
+    ],
+  },
+  {
+    id: 2,
+    name: "Interned at Roomi",
+    date: "10/2020 - 12/2020",
+    imgSrc:
+      "https://play-lh.googleusercontent.com/B0sq1nB95Qe1hYPf66iBDCzAXrCgk-3yFf78cdTn8wd6fhbMlZhsm5r6ZdaFTm3MVsNu",
+    link: "https://roomiapp.com/",
+    workDone: [
+      "Responsible for software test automation design, planning, scripting and execution for android mobile app.",
+      "worked on different appium framework components like TesNG, Maven, Jenkins, pageobject model etc. and develop Mobile Automation framework from scratch .",
+    ],
+  },
+];

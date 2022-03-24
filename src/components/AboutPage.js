@@ -6,7 +6,7 @@ import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitle";
-import astronaut from "../assets/Images/about.png";
+import i_img from "../assets/Images/about.png";
 
 const Box = styled.div`
   background-color: #000000;
@@ -25,12 +25,14 @@ const float = keyframes`
 100% { transform: translateY(-10px) }
 
 `;
-const Spaceman = styled.div`
+const Iimage = styled.div`
   position: absolute;
   top: 10%;
   right: 5%;
   width: 20vw;
   animation: ${float} 4s ease infinite;
+  z-index: 10;
+
   img {
     width: 80%;
     height: auto;
@@ -48,20 +50,21 @@ const Main = styled.div`
   justify-content: center;
   align-items: center;
   font-size: calc(0.6rem + 1vw);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(1.8px);
 
   position: absolute;
   left: calc(5rem + 5vw);
   top: 10rem;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Ubuntu Mono", "monospace";
   font-style: italic;
 
   @media (max-width: 1000px) {
     left: calc(2rem + 5vw);
+    top: 8rem;
     border: none;
     width: 60vw;
-    height: 50vh;
-    font-size: calc(0.7rem + 1vw);
+    height: 55vh;
+    font-size: calc(0.7rem + 0.5vw);
   }
 `;
 
@@ -73,14 +76,13 @@ const AboutPage = () => {
         <SocialIcons theme="dark" />
         <ParticleComponent theme="dark" />
 
-        <Spaceman>
-          <img src={astronaut} alt="spaceman" />
-        </Spaceman>
+        <Iimage>
+          <img src={i_img} alt="i_image" />
+        </Iimage>
         <Main>
-          A Practical, Versatile and Self-Motivated Software Engineer.
-          Passionate about building new things. I love to build websites with
-          great user experience and also love to solve questions based on
-          problem solving ability.
+          Practical, problem solver, great team player, focused and a
+          quick-learner Software Engineer. Passionate to build new things and
+          major in computer science, programming and UX design.
           <br /> <br />
           I'm interested in the whole Frontend stack & DSA, like trying new
           things and building great projects.

@@ -6,7 +6,7 @@ import styled from "styled-components";
 const Box = styled(motion(NavLink))`
   width: calc(12rem + 25vw);
   text-decoration: none;
-  height: 28rem;
+  height: 30rem;
   padding: 1rem;
   color: ${(props) => props.theme.text};
   border: 2px solid ${(props) => props.theme.text};
@@ -41,6 +41,15 @@ const Image = styled.div`
   ${Box}:hover & {
     border: 1px solid ${(props) => props.theme.body};
   }
+  @media (max-width: 1000px) {
+    width: 80%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 `;
 const Title = styled.h3`
   color: inherit;
@@ -59,9 +68,17 @@ const WorkDoneTags = styled.div`
 `;
 const Tag = styled.span`
   padding-right: 0.5rem;
+  font-size: 16px;
+
+  @media (max-width: 1000px) {
+    font-size: 11px;
+  }
 `;
 const Date = styled.span`
   padding: 0.5rem 0;
+  @media (max-width: 1000px) {
+    font-size: 12px;
+  }
 `;
 
 const Container = styled(motion.div)``;

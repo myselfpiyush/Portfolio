@@ -19,9 +19,13 @@ const Icons = styled.div`
   & > *:not(:last-child) {
     margin: 0.5rem 0;
   }
+  ${"" /*  to remove the highlight blue light when touch icon in mobile mode */}
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 
   @media (max-width: 1000px) {
-    height: 12rem;
+    height: 9rem;
+    left: 0.8rem;
   }
 `;
 

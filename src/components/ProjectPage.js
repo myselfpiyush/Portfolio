@@ -75,7 +75,7 @@ const WorkPage = () => {
           ))}
         </Main>
 
-        <BigTitle text="PROJECTS" top="10%" right="5%" />
+        <BigTitle text="PROJECTS" top="10%" right="2%" />
       </Box>
     </ThemeProvider>
   );

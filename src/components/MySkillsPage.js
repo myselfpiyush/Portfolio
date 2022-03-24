@@ -36,7 +36,12 @@ const Main = styled.div`
   justify-content: center;
 
   @media (max-width: 1000px) {
-    height: 50vh;
+    position: absolute;
+    top: 7rem;
+    height: 48vh;
+    font-size: calc(1em + 0.5vw);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
   }
 
   &:hover {
@@ -96,11 +101,11 @@ const MySkillsPage = () => {
           </Title>
           <Description>
             <strong>Programming Languages:</strong>
-            <p>Java, JavaScript, Python</p>
+            <p>Java, JavaScript, Python, SQL</p>
           </Description>
           <Description>
             <strong>Web Technologies:</strong>
-            <p>HTMS, CSS</p>
+            <p>HTML, CSS</p>
           </Description>
           <Description>
             <strong>Libraries:</strong>

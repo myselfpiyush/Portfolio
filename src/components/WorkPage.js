@@ -32,7 +32,7 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(1, minmax(calc(10rem + 15vw), 1fr));
   grid-gap: calc(1rem + 2vw);
-  z-index: 2;
+  z-index: 10;
   opacity: 2;
 
   }

@@ -31,6 +31,10 @@ const Box = styled(motion.li)`
       color: red;
     }
   }
+  @media (max-width: 1000px) {
+    width: 15rem;
+    height: 36vh;
+  }
 `;
 const Title = styled.h2`
   font-size: calc(1em + 0.5vw);

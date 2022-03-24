@@ -235,7 +235,7 @@ const H2 = styled.div`
 
     @media (max-width: 1000px) {
       position: absolute;
-      left: 10rem;
+      left: 11rem;
       top: 40%;
       font-size: 60px;
       transform: translate(-83%, 60%);

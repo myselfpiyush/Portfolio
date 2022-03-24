@@ -4,7 +4,7 @@ export const Works = [
   {
     id: 1,
     name: "Database developer Intern at motherson",
-    link: "https://codeinplace.stanford.edu/",
+    link: "https://www.motherson.com/",
     date: "03/2022 - Present",
     imgSrc:
       "https://www.sundayguardianlive.com/wp-content/uploads/2021/05/Rajiv-Kapoor_16-May-2021_Motherson-Sumi-Systems.jpg",

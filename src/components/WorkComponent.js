@@ -62,6 +62,9 @@ const Title = styled.h3`
   ${Box}:hover & {
     border-bottom: 1px solid ${(props) => props.theme.body};
   }
+  @media (max-width: 1000px) {
+    font-size: 16px;
+  }
 `;
 const WorkDoneTags = styled.div`
   padding: 0.5rem 0;

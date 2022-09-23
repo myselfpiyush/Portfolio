@@ -80,17 +80,14 @@ const AboutPage = () => {
           <img src={i_img} alt="i_image" />
         </Iimage>
         <Main>
-          Practical, problem solver, great team player, focused and a
-          quick-learner Software Engineer. Passionate to build new things and
-          major in computer science, programming and UX design.
-          <br /> <br />
-          I'm interested in the whole Frontend stack & DSA, like trying new
-          things and building great projects.
-          <br /> <br />
-          Currently I am pursuing my BTech in Computer Science and a last
-          year(Batch 2018-22) student at HMRITM New Delhi which is affiliated to
+          Enthusiastic engineering graduate with knowledge in problem solving,
+          coding and design. Ability to learn new technologies quickly.
+          Capability to work in teams by providing valuable support and major in
+          computer science, programming and UX design.
+          <br /> <br />I have completed my BTech in Computer Science and a
+          student of Batch 2018-22 at HMRITM New Delhi, which is affiliated with
           Guru Gobind Singh Indraprastha University (GGSIPU New Delhi) and my
-          overall CGPA till now is 8.90.
+          equivalent % is 90.8.
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />

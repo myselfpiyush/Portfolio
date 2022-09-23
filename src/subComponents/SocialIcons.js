@@ -70,7 +70,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           to={{
-            pathname: "https://www.linkedin.com/in/piyush-kumar-9b1965130/",
+            pathname: "https://www.linkedin.com/in/piyush--kumar/",
           }}
         >
           <Linkedin

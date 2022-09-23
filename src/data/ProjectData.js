@@ -3,6 +3,17 @@
 export const Projects = [
   {
     id: 1,
+    name: "Adept",
+    type: "Project",
+    description:
+      "A real-time web messaging app where you can chat in both ways personally and professionally.",
+    tags: ["React.js", "Firebase", "APIs", "Redux"],
+
+    demo: "https://adept-app.web.app/",
+    github: "https://github.com/TusharGupta026/AdeptComet",
+  },
+  {
+    id: 2,
     name: "Gesture Brightness Control",
     type: "Project",
     description:
@@ -13,7 +24,7 @@ export const Projects = [
     github: "https://github.com/myselfpiyush/Gesture_Brightness_Control",
   },
   {
-    id: 2,
+    id: 3,
     name: "Sorting Algo Visualizer",
     type: "Project",
     description:
@@ -30,7 +41,7 @@ export const Projects = [
     github: "https://github.com/myselfpiyush/Sorting-algorithm-visualizer",
   },
   {
-    id: 3,
+    id: 4,
     name: "Rise of Online Communication during COVID-19",
     type: "Research Paper",
     description:

@@ -101,7 +101,7 @@ const MySkillsPage = () => {
           </Title>
           <Description>
             <strong>Programming Languages:</strong>
-            <p>Java, JavaScript, Python, SQL</p>
+            <p>Java, JavaScript, Python, SQL, PL/SQL</p>
           </Description>
           <Description>
             <strong>Web Technologies:</strong>
@@ -116,8 +116,8 @@ const MySkillsPage = () => {
             <p>Appium, Bootstrap</p>
           </Description>
           <Description>
-            <strong>Tools:</strong>
-            <p>VScode, Github, Figma etc.</p>
+            <strong>Concepts:</strong>
+            <p>OOPs, DBMS</p>
           </Description>
         </Main>
         <BigTitle text="SKILLS" top="78%" right="30%" />
